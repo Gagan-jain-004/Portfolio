@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body><header>
+  <nav>
+      <div class="hamburger" id="hamburger">
+          &#9776; <!-- Hamburger icon -->
+      </div>
+      <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Education">Education</a></li>
+      </ul>
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gagan.praveen004@gmail.com" class="contact-btn">Contact Me</a>
+  </nav>
+  <br>
+</header>
+<!-- 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Education">Education</a></li>
+            </ul>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gagan.praveen004@gmail.com" class="contact-btn">Contact Me</a>
+        </nav>
+        <br>
+    </header> -->
+    <section id="home">
+      <div class="img">
+        
+        <img src="main.jpg" alt="profile" width="250px" height="250px" border- radius="90%" object-fit="cover" border="5px solid black">
+       
+    </div>
+        <div class="intro">
+            <div class="content">
+                <p class="subtitle" >Hi!</p>
+                <br>
+                <h1 class="title">I'm <span class="highlight"> Gagan Jain<br>a  </span>B.tech student from Computer Science  branch 2nd year.</h1>
+                <br>
+                <p class="Description">Welcome to my student Portfolio! I am Gagan Jain from Kota Rajasthan. I am B.tech student from Computer Science branch 2nd year.</p>
+                <div class="action__btns">
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=Thehomesofsmiles09@gmail.com">
+                     <br>
+                    <button class="Portfolio"><b>Hire Me!</b></button> <br>
+                  </a>
+                </div>
+            </div>
+            <br>
+          
+        </div>
+    </section> 
+    <br>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hi I'm Gagan Jain from Kota Rajasthan. I'm B.tech student from Computer Science  branch 2nd year. My University name is Rajasthan Technical University.</p>
+    </section> 
+    <section id="Education">
+      <h2>Education</h2>
+      B.tech in Computer Science from Rajasthan Technical University 
+        (2023-2027)
+     
+   Passed 12th class from J.N.V. Bundi Rajasthan 
+        <br>
+        Percentage- 87%
+   
+    </section>
+    <section id="Experience">
+      <h2>Experience</h2>
+     
+
+       Freelance work at Homes of Smiles Kota
+         <br>
+         As a web developer (sept 2024 - oct 2024) 
+         <br>
+        <br>
+      
+       Web development Internship at Resonance Eduventures Limited.
+          <br>
+           (May 2024 - June 2024) </li>
+       
+    </section>
+    <section id="Projects">
+      <h2>Skills</h2>
+   
+
+       <p>HTML , CSS , Javascript , C , C++ </p>
+    
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="child">
+        <a href="https://github.com/Gagan-jain-004"><img src="github.png" height="35px" width="35px" class="insta" alt="img"> </a>
+        <a href="https://www.linkedin.com/in/gagan-jain-01abc"><img src="linkedin.png" height="35px" width="35px" class="insta" alt="img"> </a>
+        <a href="https://x.com/GaganJain004?s=09"><img src="twitter.png" height="35px" width="35px" class="insta" alt="img"> </a>
+         </a>
+      </div>
+   </section>
+
+
+
+
+
+   <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+</body>
+</html>
