@@ -1,23 +1,22 @@
 body
 {
   font-family: Arial, Helvetica, sans-serif;
-  background-color:rgb(14, 231, 220);
+  background-color:rgb(229, 237, 237);
 }
 header
 {
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
+  position:relative;
   width: 100%;
   z-index: 1000;
 }
- header nav
+ nav
 {
-  width: 90%;
-  position: fixed;
-  background-color:black;
+  width:100%;
+  position:fixed;
+  background-color:rgb(18, 18, 19);
   color: white;
   display: flex;
+  top: 0;
   align-items: center;
   
 }
